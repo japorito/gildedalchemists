@@ -1,0 +1,26 @@
+{
+  "name": "gildedalchemists",
+  "version": "0.0.1",
+  "description": "Gilded Alchemists Guild website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japorito/gildedalchemists.git"
+  },
+  "keywords": [
+    "guild",
+    "website"
+  ],
+  "author": "Jacob Saporito <japorito@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/japorito/gildedalchemists/issues"
+  },
+  "homepage": "https://github.com/japorito/gildedalchemists#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
