@@ -1,20 +1,64 @@
 body {
-  margin: 0px; }
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+img {
+  max-width: 100%; }
 
 .header {
   width: 100%;
   height: 100px;
-  background-color: black; }
+  background-color: #111111; }
+  .header .midlogo {
+    margin-left: 25px; }
+  .header .navbox {
+    position: absolute;
+    top: 70px;
+    height: 30px;
+    left: 200px;
+    right: 0px;
+    padding: 0px; }
+    .header .navbox .navitem a:hover {
+      background: #F6D35B;
+      color: #111111; }
+    .header .navbox .navitem a {
+      padding-top: 6px; }
 
 .footer {
   width: 100%;
   height: 30px;
-  background-color: black; }
+  background-color: #111111; }
+  .footer .navbox {
+    width: 100%;
+    height: 30px; }
+    .footer .navbox a {
+      padding-top: 8px; }
 
 .content {
   width: 100%;
   padding: 50px;
-  box-sizing: border-box;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  box-sizing: border-box; }
+
+.navbox {
+  list-style: none;
+  margin: 0px;
+  display: flex; }
+  .navbox .navitem {
+    color: #F6D35B;
+    flex-grow: 1;
+    display: inline-block;
+    text-align: center;
+    height: 100%; }
+    .navbox .navitem a {
+      display: inline-block;
+      color: #F6D35B;
+      font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box; }
+
+.midlogo {
+  width: 150px; }
 
 /*# sourceMappingURL=style.css.map */

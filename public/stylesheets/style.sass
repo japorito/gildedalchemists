@@ -1,18 +1,68 @@
+$gagGold: #F6D35B
+$navBg  : #111111
+$gagFont: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+
+$headerBottom: 100px
+
 body
   margin: 0px
+  font: $gagFont
+
+img
+  max-width: 100%
 
 .header
   width: 100%
-  height: 100px
-  background-color: black
+  height: $headerBottom
+  background-color: $navBg
+  .midlogo
+    margin-left: 25px
+  .navbox
+    position: absolute
+    top: 70px
+    height: $headerBottom - 70px
+    left: 200px
+    right: 0px
+    padding: 0px
+    .navitem a:hover
+      background: $gagGold
+      color: $navBg
+    .navitem a
+      padding-top: 6px
 
 .footer
   width: 100%
   height: 30px
-  background-color: black
+  background-color: $navBg
+  .navbox
+    width: 100%
+    height: 30px
+    a
+      padding-top: 8px
 
 .content
   width: 100%
   padding: 50px
   box-sizing: border-box
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+
+.navbox
+  list-style: none
+  margin: 0px
+  display: flex
+  .navitem
+    color: $gagGold
+    flex-grow: 1
+    display: inline-block
+    text-align: center
+    height: 100%
+    a
+      display: inline-block
+      color: $gagGold
+      font: $gagFont
+      text-decoration: none
+      width: 100%
+      height: 100%
+      box-sizing: border-box
+
+.midlogo
+  width: 150px
