@@ -1,0 +1,8 @@
+<h1>Officers</h1>
+{{#each officers as |officer|}}
+<div class="card">
+    <h3>{{officer.username}}</h3>
+    <em>In-game: {{officer.aliasString}}</em><br>
+    Contact: <a href="mailto:{{officer.contact}}?subject=%5BGAG%5D">{{officer.contact}}</a>
+</div>
+{{/each}}
